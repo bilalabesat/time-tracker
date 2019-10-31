@@ -1,4 +1,5 @@
 # time-tracker
 Java (Maven) application for tracking time on the job
-
+#purpose 
+Test change trigger build from jenkins
 Time tracker
