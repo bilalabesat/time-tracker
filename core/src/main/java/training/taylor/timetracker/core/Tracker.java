@@ -33,11 +33,11 @@ public class Tracker {
 
         }
 
-        boolean valid = false;
+        //boolean valid = false;
 
-        if (valid = true) {
+     //   if (valid = true) {
             // whatever
-        }
+       // }
 
         return entries.get(index);
     }
