@@ -14,6 +14,6 @@ job('TimeTracker Job') { //*note:NodeJS example is Job name*
 		}
 		
 		steps { //*note: exec steps
-			shell("clean package")
+			shell("mvn clean package")
 		}
 }
