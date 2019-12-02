@@ -9,7 +9,7 @@ job('TimeTracker Job') { //*note:NodeJS example is Job name*
 		triggers { //*note: how many time you want build it.
 			scm('H/5 * * * *')
 		}
-		wrappers { // name of the maven installation (Manage Jenkins > Configure tools > NodeJS installations > name)
+		wrappers { // name of the maven installation (Manage Jenkins > Configure tools > NodeJS installations > name )
 		maven ('maven')
 		}
 		
