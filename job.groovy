@@ -10,10 +10,10 @@ job('TimeTracker Job') { //*note:NodeJS example is Job name*
 			scm('H/5 * * * *')
 		}
 		wrappers { // name of the maven installation (Manage Jenkins > Configure tools > NodeJS installations > name )
-		maven('maven')
+		jdk('java12')
 		}
-		
-		steps { //*note: exec steps
-			shell("clean package")
-		}
+		    goals('clean package')
+		//steps { //*note: exec steps
+		//	shell("clean package")
+		//}
 }
