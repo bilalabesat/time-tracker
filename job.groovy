@@ -1,8 +1,8 @@
 job('TimeTracker Job') { //*note:NodeJS example is Job name*
 		scm { //*note: software configuration manager. jenkins will clone the repo.
-			git ('git://github.com/bilalabesat/time-tracker.git') { node ->
-				node / gitConfigName('DSL User')
-				node / gitConfigEmail('bilal.abesat@gemalto.com')
+			git ('git://github.com/bilalabesat/time-tracker.git') { node -> // is hudson.plugins.git.GitSCM
+            node / gitConfigName('DSL User')
+            node / gitConfigEmail('bilal.abesat@gemalto.com')
 			}
 		}
 		
